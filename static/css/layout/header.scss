@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+.header {
+  min-height: 48px;
+  padding: 8px 14px;
+  background: #0a91ab;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  z-index: 100;
+
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+    }
+  }
+
+  &__right {
+    &-contents {
+      /*
+      margin-left: auto;
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      */
+    }
+  }
+
+  .md-icon {
+    font-family:Material Icons Outlined;
+  }
+}
